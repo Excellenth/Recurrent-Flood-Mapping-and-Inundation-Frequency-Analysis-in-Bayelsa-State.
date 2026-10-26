@@ -14,7 +14,7 @@ Standard SAR flood mapping assumes flooding shows up as a drop in radar backscat
 | Independent validation (Sentinel-2 NDWI) | 98.0% agreement on open water; lower overall agreement (κ = 0.221) expected, since NDWI structurally can't see flooded-vegetation double-bounce |
 | Wet-season flood frequency (2015–2025) | Mean 51.5% of the state classified as flooded in an average wet-season month |
 | LSTM backscatter forecasting | MAE 0.116 dB, R² = 0.895 — beats a naive persistence baseline by ~22% |
-| Geospatial prioritization | Southern Ijaw, Brass, and Yenagoa rank highest by estimated population in the flood footprint; corridor-level embankment siting within each |
+| Geospatial prioritization | Yenagoa, Brass, and Kolokuma/Opokuma rank highest by population-weighted flood exposure, after correcting for chronic-wetland conflation; corridor-level embankment siting within each |
 
 ### Flood-frequency map (2015–2025)
 ![Wet-season inundation frequency](outputs/figures/frequency_map_preview.png)
