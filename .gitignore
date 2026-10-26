@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+*.egg-info/
+
+# Large / regeneratable geospatial outputs — not tracked in git.
+# Regenerate via the notebooks/ scripts (GEE exports) or build_geopackage.py.
+# See CODE_SUMMARY.md for what produces what.
+outputs/geotiffs/
+outputs/models/
+outputs/Bayelsa_Flood_SAR.gpkg
+
+# Tool/editor config, not part of the project itself
+.claude/
+.vscode/
+.idea/
+
+# OS / Office cruft
+.DS_Store
+Thumbs.db
+~$*.docx
+~$*.doc
+
+# Stray duplicates (exact copy of data/aoi/study area.*; redundant zip of the gpkg) —
+# left on disk, not deleted (needs manual cleanup), but never tracked in git.
+/Bayelsa/
+outputs/Bayelsa_Flood_SAR.zip
+

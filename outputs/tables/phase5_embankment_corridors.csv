@@ -1,0 +1,4 @@
+LGA,lga_area_km2,corridor_area_km2,corridor_pct_of_lga,n_corridor_segments,n_significant_segments,largest_segment_centroid_lon,largest_segment_centroid_lat
+Yenegoa,618.9,13.76,2.22,1052,186,6.3267,5.0491
+Kolokuma/Opokuma,321.5,21.07,6.55,1360,256,6.3629,5.11
+Brass,723.4,98.33,13.59,6066,1206,6.1026,4.4267
